@@ -3,7 +3,7 @@ from rest_framework import generics, permissions
 from .models import Note
 from .serializers import NoteSerializer
 
-# لیست و ساخت یادداشت
+
 class NoteListCreateView(generics.ListCreateAPIView):
     serializer_class = NoteSerializer
     permission_classes = [permissions.IsAuthenticated]
@@ -15,7 +15,6 @@ class NoteListCreateView(generics.ListCreateAPIView):
         serializer.save(user=self.request.user)
 
 
-# نمایش، ویرایش و حذف یادداشت
 class NoteDetailView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = NoteSerializer
     permission_classes = [permissions.IsAuthenticated]

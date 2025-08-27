@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from rest_framework import generics, permissions
 from rest_framework.serializers import ModelSerializer
 
-# Serializer برای ثبت‌نام
+
 class RegisterSerializer(ModelSerializer):
     class Meta:
         model = User
@@ -18,7 +18,7 @@ class RegisterSerializer(ModelSerializer):
         return user
 
 
-# View برای ثبت‌نام
+
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = RegisterSerializer
