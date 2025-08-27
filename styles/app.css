@@ -11,8 +11,8 @@ body{
     padding: 10vw;
 }
 .div1{
-    width: 40vw;
-    height: 40vh;
+    min-width: 40vw;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,11 +48,16 @@ body{
     justify-content: space-between;
     padding: 5px;
     border-radius: 5px;
+    align-items: center;
 }
-.div1-div1-div1>p{
+.div1-div1-div1-textarea{
     font-size: 1rem;
     font-weight: 400;
-    
+    border: none;
+    background-color: rgb(184, 184, 184);
+    width: 80%;
+    min-height: 100px;
+    resize: none;
 }
 .div1-div1-div1>div>button{
     background-color: rgb(184, 184, 184);
