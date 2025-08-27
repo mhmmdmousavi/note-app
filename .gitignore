@@ -50,3 +50,127 @@ coverage/
 *.orig
 *.rej
 *.sublime*
+# فایل .gitignore برای پروژه Django
+
+# محیط مجازی پایتون
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# محیط Conda
+.env
+
+# فایل‌های پایتون
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# نصب‌های pip
+pip-delete-this-directory.txt
+
+# واحدهای تست پایتون
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# محیط‌های مجازی
+virtualenv/
+virtualenvs/
+
+# پایگاه داده
+*.sqlite3
+*.db
+*.sqlite
+
+# فایل‌های موقت
+*.swp
+*.swo
+*~
+
+# لاگ‌ها
+*.log
+logs/
+
+# فایل‌های محیطی
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# سیستم عامل
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# پوشه‌های رسانه و فایل‌های آپلود شده
+/media/
+/uploads/
+
+# فایل‌های استاتیک جمع‌آوری شده
+/staticfiles/
+
+# فایل‌های مخفی
+.*
+!.gitignore
+
+# فایل‌های تولید شده توسط Django
+*.pot
+
+# فایل‌های پیکربندی خاص
+/config/
+/settings/local.py
+
+# فایل‌های کش
+.cache/
+
+# مستندات
+/docs/_build/
+
+# پوشه‌های نود
+node_modules/
+/assets/
+
+# فایل‌های باینری
+*.pyc

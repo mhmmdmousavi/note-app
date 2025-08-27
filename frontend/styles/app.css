@@ -64,3 +64,109 @@ body{
     border: none;
 
 }
+
+.register{
+    background-color: #abd2fac4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    padding: 4vw;
+}
+.register .div1{
+    background-color: #3D518C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 30vw;
+}
+.register .div1:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.register .div2{
+    background-color: #7692FF;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+}
+.register .div1>h2{
+    color: #ABD2FA;
+}
+.register .div1>input{
+    background-color: #7692FF;
+    color: #091540;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+}
+.register .div1>input::placeholder{
+    color: #091540;
+    
+}
+.register .div1>button{
+    background-color: #ABD2FA;
+    color: #091540;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+}
+
+.login{
+    background-color: #abd2fac4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+    padding: 4vw;
+}
+.login .div1{
+    background-color: #3D518C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 30vw;
+}
+.login .div1:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.login .div2{
+    background-color: #7692FF;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+}
+.login .div1>h2{
+    color: #ABD2FA;
+}
+.login .div1>input{
+    background-color: #7692FF;
+    color: #091540;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+}
+.login .div1>input::placeholder{
+    color: #091540;
+    
+}
+.login .div1>button{
+    background-color: #ABD2FA;
+    color: #091540;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+}
