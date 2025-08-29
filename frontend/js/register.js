@@ -1,11 +1,11 @@
-const register = document.getElementById("register-btn")
+const register_btn = document.getElementById("register-btn")
 
-register.addEventListener("click", (e) => {
+register_btn.addEventListener("click", (e) => {
     const username = document.getElementById("input1").value
     const password = document.getElementById("input2").value
     const email = document.getElementById("input3").value
 
-
+    register(username, password, email)
 
 })
 

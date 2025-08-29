@@ -1,9 +1,9 @@
-const login = document.getElementById("login-btn")
+const login_btn = document.getElementById("login-btn")
 
-login.addEventListener("click", (e) => {
+login_btn.addEventListener("click", (e) => {
     const username = document.getElementById("input1").value
     const password = document.getElementById("input2").value
-
+    login(username, password)
 })
 
 
@@ -22,7 +22,7 @@ async function login(username, password) {
             localStorage.setItem("access", data.access);
             localStorage.setItem("refresh", data.refresh);
 
-            window.location.href= "index.html";
+            window.location.href= "note.html";
         }
         console.log("error in post login");
 
